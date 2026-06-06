@@ -28,5 +28,5 @@ jobs:
         working-directory: my-react-app
 
       - name: Run tests
-        run: npm test -- --watchAll=false
+        run: npm test -- --coverage
         working-directory: my-react-app
